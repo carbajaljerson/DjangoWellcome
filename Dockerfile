@@ -12,13 +12,13 @@ WORKDIR $DockerHOME
 
 #environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1 
-
-# install dependencies  
-RUN pip install --upgrade pip  
+ENV PYTHONUNBUFFERED 1
 
 #copy the rest of the application files to the container's working directory
 COPY . $DockerHOME
+
+# install dependencies  
+RUN pip install --upgrade pip  
 
 # run this command to install all dependencies  
 RUN pip install -r requirements.txt  
