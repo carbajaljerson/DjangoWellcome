@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-+m+93dthq(9-9h008_756%-qg)y$r34501ga9x1cfkfwlil@9=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['llama2chatbotdoc.azurewebsites.net']
 
 
 # Application definition
